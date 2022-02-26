@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Manuel Sosa">
+        <meta name="description" content="Esta pagina web personal, donde muestra quien soy yo, información de contacto,
+        proyectos que he realizado, mis intereses / hobbies / habilidades y mi formación academica y expereincia.">
+        <title>Mi página personal</title>
+    </head>
+    <body>
+        <header>
+            <h1>Manuel Ricardo Sosa Montañez</h1>
+            <img alt="Foto de Manuel Sosa" title="Foto de Manuel Sosa" src="./Docs/manuelsosa.jpg" width="250px">
+        </header>
+        <nav>
+            <h2>Barra de Navegación:</h2>
+            <ul>
+                <li><a href="#datos-biograficos">Datos biográficos</a></li>
+                <li><a href="#datos-academicos">Datos acedémicos</a></li>
+                <li><a href="#formulario-contacto">Formulario de contacto</a></li>
+                <li><a href="#datos-contacto">Datos de contacto</a></li>
+                
+            </ul>
+        </nav>
+        <main>
+            <section id="datos-biograficos">
+                <h2>Datos biográficos:</h2>
+                <table border="1">
+                    <caption><small>Datos biográficos</small> </caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h3>Sexo:</h3>
+                            </td>
+                            <td>
+                                Masculino
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Edad:</h3>
+                            </td>
+                            <td>
+                                21 años
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Fecha de nacimiento:</h3>
+                            </td>
+                            <td>
+                                <time datetime="2000-10-05"> 5 de Octubre de 2000</time>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Lugar de nacimiento:</h3>
+                            </td>
+                            <td>
+                                Duitama, Boyacá
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Lugar de residencia:</h3>
+                            </td>
+                            <td>
+                                Bogotá D.C.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Nacionalidad:</h3>
+                            </td>
+                            <td>
+                                Colombiano
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="datos-academicos">
+                <h2>Datos académicos:</h2>
+                <ul>
+                    <li>
+                        <h4>Escuela secundaria:</h4> Colegio Seminario Diocesano de Duitama <strong>(prom 2017)</strong>
+                    </li>
+                    <li>
+                        <h4>Universidad:</h4> Universidad de los Andes <strong>(Ing. sistemas y Computación)</strong>
+                    </li>
+                </ul>
+            </section>
+            <section id="intereses">
+                <h2>Intereses:</h2>
+                <table border="1">
+                    <caption><small>Intereses</small> </caption>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="./Docs/img1.jpg" alt="redes" width="100%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="./Docs/img5.jpg" alt="redes" width="100%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <video src="./Docs/video1.mp4" autoplay muted loop alt="redes" width="100%"></video>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="formulario-contacto">
+                <h2>Formulario de contacto:</h2>
+                <form action="">
+                    <p>Nombre: <input type="text" name="nombre" required></p>
+                    <p>Fecha de nacimiento: <input type="date" name="nacido" min="1900" required></p>
+                    <p>Sexo:
+                        <input type="radio" name="hm" value="h" required> Hombre
+                        <input type="radio" name="hm" value="m" required> Mujer
+                        <input type="radio" name="hm" value="o" required> Otro
+                    </p>
+                    <p>Email: <input type="email" name="email" required></p>
+                    <p>Número de delular: <input type="number" name="numero" required></p>
+                    <p>Contraseña: <input type="password" name="contrasena" required></p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section id="datos-contacto">
+                <h2>Datos de contacto: </h2>
+                <p>Sígueme en <a href="https://www.facebook.com/Manuel.Sosa.1005"><img src="./Docs/facebook.png" alt="Facebook" width="20px"></a>  
+                              <a href="https://www.instagram.com/manuel_sosam/"><img src="./Docs/instagram.png" alt="Instagram" width="20px"></a>
+                              <a href="https://api.whatsapp.com/send/?phone=573208702125&text=Hola%21"><img src="./Docs/whatsapp.png" alt="WhatsApp" width="20px"></a>
+                              <a href="mailto:mr.sosa@uniandes.edu.co"> <img src="./Docs/mail.png" alt="" width="20"></a>
+                            </p>
+                <p>mr.sosa@uniandes.edu.co</p>
+                <p>Copyright 2022</p>
+            </section>
+        </footer>
+    </body>
+</html>
